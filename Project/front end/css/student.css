@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(142, 142, 235);
+}
+h1{
+    padding-left: 40%;
+}
+.admin_area {
+    background-color: lightgrey;
+    width: 100%;
+    height: 50px;
+
+      }
+      .image{
+        float: left;
+    }
+    
+.image1{
+  margin: 30px;
+  height: 450px;
+  width: 100%;
+}
+
+.form {
+width: 40%;
+float: right;
+
+margin: 30px;
+height: 500px;
+}
+
+a{
+    background-color:none;
+    text-decoration: none;
+    color: black;
+}
+
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #38d397;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 35%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    width: 35%;
+  }
+  
+ 
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 20%;
+    border-radius: 40%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    font-size: 20px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+   margin-right: 0
+  }
+  strong.lg{
+    background-color: none;
+    font-size: 20px;
+    background-color: #38d397;
+  }
+ 

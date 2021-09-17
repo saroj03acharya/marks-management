@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<meta charset="utf-8">
+	<title>Resister</title>
+</head>
+<body>
+	<div class="register">
+		<form action="/action_page.php" method="post">
+			<label for="Fname"><b>Full Name</b></label><br><br>
+    		<input type="text" placeholder="Enter Your FullName" name="Fname" required><br><br>
+    		<label for="email"><b>Email</b></label><br><br>
+    		<input type="text" placeholder="Enter Your Email" name="email" required><br><br>
+    		<label for="mbl"><b>Mobile Number</b></label><br><br>
+    		<input type="text" placeholder="Enter Your MobileNumber" name="mbl" required><br><br><br>
+
+    		
+    		<label for="program"><b>Program: </b></label>
+  			<select name="program" id="program">
+  			<div class="opt">
+    			<option value="cmp">Computer Engineering</option>
+    			<option value="civil">Civil Engineering</option>
+    			<option value="it">Information & Technology Engineering </option>
+    			<option value="mch">Mechanical Engineering</option>
+    		</div>
+  			</select><br><br><br>
+  			
+
+
+    		<label for="gender"><b>Gender</b></label><br>
+    		<div class="gen">
+    		<input type="radio" id="male" name="Gender" value="male">
+  			<label for="male">Male</label>
+  			<input type="radio" id="female" name="Gender" value="female">
+  			<label for="female">Female</label>
+  			</div>
+  			<br>
+    		<label for="psw"><b>Password</b></label><br><br>
+    		<input type="text" placeholder="Enter new Password" name="psw" required><br><br>
+
+    		<input type="submit" value="Submit">
+    	</form>
+	</div>
+</body>
+</html>

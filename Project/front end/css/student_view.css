@@ -1,0 +1,23 @@
+ table, th, td {
+    text-align: center;
+    border: 1px black solid;
+    border-collapse: collapse;
+ }
+
+    .back{
+      float: left;
+      padding: 5px;
+      text-align: center;
+      margin-left: 0;
+
+
+    }
+    .view{
+      padding: 5px;
+      margin left: 10;
+      margin-right: 10;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+    }
+    

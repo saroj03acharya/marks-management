@@ -1,0 +1,23 @@
+body{
+	background-color: #9c88ff;
+	margin left: 100px;
+	padding-left: 30%;
+	padding-top: 80px;
+}
+h1{
+	font-size: 25px;
+	color: #dcdde1;
+}
+label{
+	font-size: 150%;
+}
+input[type=text], input[type=password]{
+	width: 40%;
+	margin: 4px 0;
+	padding: 10px;
+}
+input[type=submit]{
+	width: 10%;
+	padding: 9px;
+	background-color: #e84118;
+}

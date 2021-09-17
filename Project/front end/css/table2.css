@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 1rem;
+    color: blue;
+    background-color: #e7e5da;
+}
+
+.top {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding :1.5rem;
+    column-gap: 3rem;
+}
+
+.top div {
+    text-align: center;
+}
+
+.top-inner {
+    background-color: #03a5ad;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+table, th, td {
+    border: 1px black solid;
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
+
+.table {
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.table div table {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    padding: 0.5rem;
+}
+
+.bottom-button-container {
+    display: flex;
+    justify-content: end;
+    background-color: blue;
+}
+
+.logout-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 4rem;
+}
